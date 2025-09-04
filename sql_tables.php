@@ -1,0 +1,313 @@
+<?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
+
+require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
+
+use Bitrix\Main\Application;
+use Bitrix\Main\Loader;
+
+Loader::includeModule('main');
+
+$connection = Application::getConnection();
+
+// Отключаем проверку внешних ключей, чтобы можно было дропать в любом порядке
+$connection->queryExecute("SET FOREIGN_KEY_CHECKS=0");
+
+// 1. Справочник компаний
+$createRefCompany = "
+CREATE TABLE IF NOT EXISTS iplus_reference_company (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  COMPANY_NAME VARCHAR(255) NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createRefCompany);
+
+// 2. Справочник типов инвентаря
+$createRefTypes = "
+CREATE TABLE IF NOT EXISTS iplus_reference_inventory_types (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  TYPE_NAME VARCHAR(255) NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createRefTypes);
+
+// 3. Справочник местоположений
+$createRefLocation = "
+CREATE TABLE IF NOT EXISTS iplus_reference_location (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  LOCATION_NAME VARCHAR(255) NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createRefLocation);
+
+// 4. Справочник статусов инвентаря
+$createRefStatus = "
+CREATE TABLE IF NOT EXISTS iplus_reference_inventory_status (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  STATUS_NAME VARCHAR(255) NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createRefStatus);
+
+// 5. Основная таблица инвентаря
+$createInventory = "
+CREATE TABLE IF NOT EXISTS iplus_inventory (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  MODEL VARCHAR(255) NOT NULL,
+  SERIAL_CODE VARCHAR(255) NOT NULL,
+  INVENTORY_CODE VARCHAR(255) NOT NULL,
+  PC_NAME VARCHAR(255) DEFAULT NULL,
+  IP VARCHAR(50) DEFAULT NULL,
+  RESPONSIBLE_USER_ID BIGINT DEFAULT NULL,
+  COMMENT TEXT,
+  QR MEDIUMTEXT,
+  DATE_OF_CREATION TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  DATE_OF_COMPLETION TIMESTAMP NULL DEFAULT NULL,
+  SURNAME VARCHAR(50) DEFAULT NULL,
+  PATRONYMIC VARCHAR(50) DEFAULT NULL,
+  NAME VARCHAR(50) DEFAULT NULL,
+  EMAIL VARCHAR(100) DEFAULT NULL,
+  NUMBER VARCHAR(20) DEFAULT NULL,
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createInventory);
+
+// 6. Связь инвентаря с типом
+$createInvVsType = "
+CREATE TABLE IF NOT EXISTS iplus_inventory_vs_inventory_type (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  INVENTORY_ID BIGINT NOT NULL,
+  INVENTORY_TYPE_ID BIGINT NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  DATE_OF_CREATION TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  DATE_OF_COMPLETION TIMESTAMP NULL DEFAULT NULL,
+  PRIMARY KEY (ID),
+  KEY FK_inv_type_inventory (INVENTORY_ID),
+  KEY FK_inv_type_type (INVENTORY_TYPE_ID),
+  CONSTRAINT FK_inv_type_inventory FOREIGN KEY (INVENTORY_ID) REFERENCES iplus_inventory(ID),
+  CONSTRAINT FK_inv_type_type FOREIGN KEY (INVENTORY_TYPE_ID) REFERENCES iplus_reference_inventory_types(ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createInvVsType);
+
+// 7. Связь инвентаря с компанией
+$createInvVsCompany = "
+CREATE TABLE IF NOT EXISTS iplus_inventory_vs_company (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  INVENTORY_ID BIGINT NOT NULL,
+  COMPANY_ID BIGINT NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  DATE_OF_CREATION TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  DATE_OF_COMPLETION TIMESTAMP NULL DEFAULT NULL,
+  PRIMARY KEY (ID),
+  KEY FK_inv_comp_inventory (INVENTORY_ID),
+  KEY FK_inv_comp_company (COMPANY_ID),
+  CONSTRAINT FK_inv_comp_company FOREIGN KEY (COMPANY_ID) REFERENCES iplus_reference_company(ID),
+  CONSTRAINT FK_inv_comp_inventory FOREIGN KEY (INVENTORY_ID) REFERENCES iplus_inventory(ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createInvVsCompany);
+
+// 8. Связь инвентаря с местоположением
+$createInvVsLocation = "
+CREATE TABLE IF NOT EXISTS iplus_inventory_vs_location (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  INVENTORY_ID BIGINT NOT NULL,
+  LOCATION_ID BIGINT NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  DATE_OF_CREATION TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  DATE_OF_COMPLETION TIMESTAMP NULL DEFAULT NULL,
+  PRIMARY KEY (ID),
+  KEY FK_inv_loc_inventory (INVENTORY_ID),
+  KEY FK_inv_loc_location (LOCATION_ID),
+  CONSTRAINT FK_inv_loc_inventory FOREIGN KEY (INVENTORY_ID) REFERENCES iplus_inventory(ID),
+  CONSTRAINT FK_inv_loc_location FOREIGN KEY (LOCATION_ID) REFERENCES iplus_reference_location(ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createInvVsLocation);
+
+// 9. Связь инвентаря со статусом
+$createInvVsStatus = "
+CREATE TABLE IF NOT EXISTS iplus_inventory_vs_inventory_status (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  INVENTORY_ID BIGINT NOT NULL,
+  INVENTORY_STATUS_ID BIGINT NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  DATE_OF_CREATION TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  DATE_OF_COMPLETION TIMESTAMP NULL DEFAULT NULL,
+  PRIMARY KEY (ID),
+  KEY FK_inv_status_inventory (INVENTORY_ID),
+  KEY FK_inv_status_status (INVENTORY_STATUS_ID),
+  CONSTRAINT FK_inv_status_inventory FOREIGN KEY (INVENTORY_ID) REFERENCES iplus_inventory(ID),
+  CONSTRAINT FK_inv_status_status FOREIGN KEY (INVENTORY_STATUS_ID) REFERENCES iplus_reference_inventory_status(ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createInvVsStatus);
+
+// 10. Справочник операций
+$createRefOperations = "
+CREATE TABLE IF NOT EXISTS iplus_reference_operations (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  DIRECT_OPERATION_NAME VARCHAR(255) NOT NULL,
+  REVERSE_OPERATION_NAME VARCHAR(255) NOT NULL,
+  NAME_OPERATION VARCHAR(255) NULL,
+  PRINTED_FORM_TEMPLATE BLOB,
+  NAME_OF_TEMPLATE VARCHAR(255) DEFAULT NULL,
+  AFTER_OPERATION_STATUS BIGINT NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  IS_AVAILABLE_TO_ALL TINYINT(1) DEFAULT '1',
+  TEMPLATE_PATH VARCHAR(255) DEFAULT NULL,
+  REQUIRE_CONFIRMATION TINYINT(1) NOT NULL DEFAULT '0',
+  IS_DIRECT TINYINT(1) NOT NULL DEFAULT '0',
+  IS_REVERSE TINYINT(1) NOT NULL DEFAULT '0',
+  FIRST_OPERATION TINYINT(1) NOT NULL DEFAULT '0',
+  LAST_OPERATION TINYINT(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createRefOperations);
+
+// 11. Связь операций с возможными начальными статусами
+$createOperationsVsStatus = "
+CREATE TABLE IF NOT EXISTS iplus_operations_vs_possible_initial_status (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  OPERATION_ID BIGINT NOT NULL,
+  INVENTORY_STATUS_ID BIGINT NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (ID),
+  KEY FK_operations_status_operation (OPERATION_ID),
+  KEY FK_operations_status_status (INVENTORY_STATUS_ID),
+  CONSTRAINT FK_operations_status_operation FOREIGN KEY (OPERATION_ID) REFERENCES iplus_reference_operations(ID),
+  CONSTRAINT FK_operations_status_status FOREIGN KEY (INVENTORY_STATUS_ID) REFERENCES iplus_reference_inventory_status(ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createOperationsVsStatus);
+
+// 12. Связь операций с пользователями
+$createUserOperation = "
+CREATE TABLE IF NOT EXISTS iplus_user_operation (
+  ID INT NOT NULL AUTO_INCREMENT,
+  OPERATION_ID BIGINT NOT NULL,
+  USER_ID INT NOT NULL,
+  PRIMARY KEY (ID),
+  UNIQUE KEY unique_operation_user (OPERATION_ID, USER_ID),
+  KEY USER_ID (USER_ID),
+  CONSTRAINT iplus_user_operation_ibfk_1 FOREIGN KEY (OPERATION_ID) REFERENCES iplus_reference_operations(ID) ON DELETE CASCADE,
+  CONSTRAINT iplus_user_operation_ibfk_2 FOREIGN KEY (USER_ID) REFERENCES b_user(ID) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createUserOperation);
+
+// 13. История операций
+$createHistoryOperations = "
+CREATE TABLE IF NOT EXISTS iplus_operations_user_history (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  USER_ID BIGINT NOT NULL,
+  OPERATION_ID BIGINT NOT NULL,
+  INVENTORY_ID BIGINT NOT NULL,
+  ACTIVITY_START TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  SUPPORT_ACTIVITY_START TIMESTAMP NULL DEFAULT NULL,
+  SUPPORT_ACTIVITY_END TIMESTAMP NULL DEFAULT NULL,
+  OPERATION_ACTIVE_STATUS TINYINT(1) NOT NULL DEFAULT '1',
+  INVENTORY_RECORD_STATUS INT NOT NULL,
+  INVENTORY_RESPONSIBLE_USER BIGINT NOT NULL,
+  INVENTORY_LOCATION INT NOT NULL,
+  BITRIX_RESPONSIBLE_USER_ID BIGINT NOT NULL,
+  RESPONSIBLE_USER_FULLNAME VARCHAR(255) DEFAULT NULL,
+  RESPONSIBLE_USER_EMAIL VARCHAR(255) DEFAULT '',
+  RESPONSIBLE_USER_NUMBER VARCHAR(50) DEFAULT '',
+  NEW_RESPONSIBLE_USER_ID INT NULL DEFAULT NULL,
+  NEW_SURNAME VARCHAR(255) NULL DEFAULT NULL,
+  NEW_NAME VARCHAR(255) NULL DEFAULT NULL,
+  NEW_PATRONYMIC VARCHAR(255) NULL DEFAULT NULL,
+  NEW_EMAIL VARCHAR(255) NULL DEFAULT NULL,
+  NEW_NUMBER VARCHAR(255) NULL DEFAULT NULL,
+  INVENTORY_LINK VARCHAR(255) DEFAULT NULL,
+  MODEL VARCHAR(255) DEFAULT NULL,
+  COMMENT TEXT,
+  EXECUTION_STATUS VARCHAR(20) DEFAULT 'В ожидании',
+  FILLED_TEMPLATE mediumtext NULL,
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+";
+$connection->queryExecute($createHistoryOperations);
+
+// 14. Таблица для инвентаризации
+$createInventorying = "
+CREATE TABLE IF NOT EXISTS iplus_inventorying (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  INITIATOR BIGINT NOT NULL,
+  DATE_OF_CREATION DATETIME NOT NULL,
+  DATE_OF_COMPLETION DATETIME DEFAULT NULL,
+  IS_DONE TINYINT(1) NOT NULL DEFAULT '0',
+  CANCELLED TINYINT(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_0900_ai_ci
+";
+$connection->queryExecute($createInventorying);
+
+// 15. Связь инвентаризации с пользователями
+$createInventoryingVsUsers = "
+CREATE TABLE IF NOT EXISTS iplus_inventorying_vs_users (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  INVENTORYING_ID BIGINT NOT NULL,
+  USER_ID INT NOT NULL,
+  ACTIVE TINYINT(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (ID),
+  KEY INVENTORYING_ID (INVENTORYING_ID),
+  KEY USER_ID (USER_ID),
+  CONSTRAINT iplus_inventorying_vs_users_ibfk_1 FOREIGN KEY (INVENTORYING_ID) REFERENCES iplus_inventorying(ID) ON DELETE CASCADE,
+  CONSTRAINT iplus_inventorying_vs_users_ibfk_2 FOREIGN KEY (USER_ID) REFERENCES b_user(ID) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_0900_ai_ci
+";
+$connection->queryExecute($createInventoryingVsUsers);
+
+// 16. Связь инвентаризации с инвентарём
+$createInventoryingVsInventory = "
+CREATE TABLE IF NOT EXISTS iplus_inventorying_vs_inventory (
+  ID BIGINT NOT NULL AUTO_INCREMENT,
+  INVENTORYING_ID BIGINT NOT NULL,
+  INVENTORY_ID BIGINT NOT NULL,
+  SCANNED TINYINT(1) NOT NULL DEFAULT '0',
+  MANUALLY_CONFIRMED TINYINT(1) NOT NULL DEFAULT '0',
+  CONFIRMED_BY INT DEFAULT NULL,
+  CONFIRMATION_DATE_TIME DATETIME DEFAULT NULL,
+  PRIMARY KEY (ID),
+  KEY INVENTORYING_ID (INVENTORYING_ID),
+  KEY INVENTORY_ID (INVENTORY_ID),
+  KEY CONFIRMED_BY (CONFIRMED_BY),
+  CONSTRAINT iplus_inventorying_vs_inventory_ibfk_1 FOREIGN KEY (INVENTORYING_ID) REFERENCES iplus_inventorying(ID) ON DELETE CASCADE,
+  CONSTRAINT iplus_inventorying_vs_inventory_ibfk_2 FOREIGN KEY (INVENTORY_ID) REFERENCES iplus_inventory(ID) ON DELETE CASCADE,
+  CONSTRAINT iplus_inventorying_vs_inventory_ibfk_3 FOREIGN KEY (CONFIRMED_BY) REFERENCES b_user(ID) ON DELETE SET NULL,
+  CONSTRAINT check_scanned_manually CHECK ((SCANNED <> TRUE) OR (MANUALLY_CONFIRMED <> TRUE))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_0900_ai_ci
+";
+$connection->queryExecute($createInventoryingVsInventory);
+
+// 17. Таблица для прав пользователей
+$createUserPermissions = "
+CREATE TABLE IF NOT EXISTS user_permissions (
+  ID INT NOT NULL AUTO_INCREMENT,
+  USER_ID INT NOT NULL,
+  PERMISSION ENUM('full', 'edit', 'view') NOT NULL DEFAULT 'view',
+  PRIMARY KEY (ID),
+  UNIQUE KEY USER_ID (USER_ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_0900_ai_ci
+";
+$connection->queryExecute($createUserPermissions);
+
+// Включаем проверку внешних ключей обратно
+$connection->queryExecute("SET FOREIGN_KEY_CHECKS=1");
+
+echo json_encode(['status' => 'success', 'message' => 'Таблицы созданы!']);
