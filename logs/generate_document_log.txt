@@ -1,0 +1,2875 @@
+[2025-03-21 03:30:10] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-21 03:30:10] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-21 03:30:10] [generate_operation_document] Including prolog_before.php
+[2025-03-21 03:30:10] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-21 03:30:10] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1742541488.docx
+[2025-03-21 03:30:10] [generate_operation_document] Received inventory_id: 7, operation_id: 48
+[2025-03-21 03:30:10] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1742541488.docx
+[2025-03-21 03:30:10] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-21 03:30:10] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1742541488.docx
+[2025-03-21 03:30:10] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1742541488.docx
+    [current_date] => 21.03.2025
+    [current_time] => 03:30:10
+    [inventory_id] => 7
+    [inventory_model] => ViewSonic
+    [inventory_serial_code] => 173985642
+    [inventory_code] => 1200008755
+    [inventory_pc_name] => NAMEOFPC
+    [inventory_ip] => 192
+    [inventory_comment] => Монитор
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => В ПОЛЬЗОВАНИИ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-21 03:18:31.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 48
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест2
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 30
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-21 03:30:10.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => В ПОЛЬЗОВАНИИ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => выаывмаипитрп
+)
+
+[2025-03-21 03:30:10] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1742542210_7.docx
+[2025-03-21 03:30:10] [generate_operation_document] Reading and encoding document
+[2025-03-21 03:30:10] [generate_operation_document] Document generation successful
+[2025-03-21 03:38:22] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-21 03:38:22] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-21 03:38:22] [generate_operation_document] Including prolog_before.php
+[2025-03-21 03:38:22] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-21 03:38:22] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1742542687.docx
+[2025-03-21 03:38:22] [generate_operation_document] Received inventory_id: 7, operation_id: 49
+[2025-03-21 03:38:22] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1742542687.docx
+[2025-03-21 03:38:22] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-21 03:38:22] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1742542687.docx
+[2025-03-21 03:38:22] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1742542687.docx
+    [current_date] => 21.03.2025
+    [current_time] => 03:38:22
+    [inventory_id] => 7
+    [inventory_model] => ViewSonic
+    [inventory_serial_code] => 173985642
+    [inventory_code] => 1200008755
+    [inventory_pc_name] => NAMEOFPC
+    [inventory_ip] => 192
+    [inventory_comment] => Монитор
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => В ПОЛЬЗОВАНИИ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-21 03:18:31.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 49
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция
+    [operation_operation_id] => 31
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-21 03:38:22.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => В ПОЛЬЗОВАНИИ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => dfbv
+)
+
+[2025-03-21 03:38:22] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1742542702_7.docx
+[2025-03-21 03:38:22] [generate_operation_document] Reading and encoding document
+[2025-03-21 03:38:22] [generate_operation_document] Document generation successful
+[2025-03-26 05:45:20] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-26 05:45:20] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-26 05:45:20] [generate_operation_document] Including prolog_before.php
+[2025-03-26 05:45:20] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-26 05:45:20] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1742966272.docx
+[2025-03-26 05:45:20] [generate_operation_document] Received inventory_id: 2, operation_id: 2
+[2025-03-26 05:45:20] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1742966272.docx
+[2025-03-26 05:45:20] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-26 05:45:20] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1742966272.docx
+[2025-03-26 05:45:20] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1742966272.docx
+    [current_date] => 26.03.2025
+    [current_time] => 05:45:20
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Кадников Антон Николаевич
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:43:43.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 2
+    [operation_user_fullname] => Кадников Антон Николаевич
+    [operation_user_id] => 1
+    [operation_direct_name] => Ремонт
+    [operation_reverse_name] => Обращение на ремонт
+    [operation_operation_id] => 1
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:20.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => 2145
+)
+
+[2025-03-26 05:45:20] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1742982320_2.docx
+[2025-03-26 05:45:20] [generate_operation_document] Reading and encoding document
+[2025-03-26 05:45:20] [generate_operation_document] Document generation successful
+[2025-03-26 05:45:50] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-26 05:45:50] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-26 05:45:50] [generate_operation_document] Including prolog_before.php
+[2025-03-26 05:45:50] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-26 05:45:50] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1742966272.docx
+[2025-03-26 05:45:50] [generate_operation_document] Received inventory_id: 2, operation_id: 3
+[2025-03-26 05:45:50] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1742966272.docx
+[2025-03-26 05:45:50] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-26 05:45:50] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1742966272.docx
+[2025-03-26 05:45:50] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1742966272.docx
+    [current_date] => 26.03.2025
+    [current_time] => 05:45:50
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Кадников Антон Николаевич
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:43:43.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 3
+    [operation_user_fullname] => Кадников Антон Николаевич
+    [operation_user_id] => 1
+    [operation_direct_name] => Ремонт
+    [operation_reverse_name] => Обращение на ремонт
+    [operation_operation_id] => 1
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:50.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => п7з9з
+)
+
+[2025-03-26 05:45:50] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1742982350_2.docx
+[2025-03-26 05:45:50] [generate_operation_document] Reading and encoding document
+[2025-03-26 05:45:50] [generate_operation_document] Document generation successful
+[2025-03-27 01:03:39] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:03:39] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:03:39] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:03:39] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:03:39] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:03:39] [generate_operation_document] Received inventory_id: 2, operation_id: 5
+[2025-03-27 01:03:39] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:03:39] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:03:39] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:03:39] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:03:39
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 5
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:03:39.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => ывамвымавмва
+)
+
+[2025-03-27 01:03:39] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743051819_2.docx
+[2025-03-27 01:03:39] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:03:39] [generate_operation_document] Document generation successful
+[2025-03-27 01:04:17] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:04:17] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:04:17] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:04:17] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:04:17] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:04:17] [generate_operation_document] Received inventory_id: 2, operation_id: 6
+[2025-03-27 01:04:17] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:04:17] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:04:17] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:04:17] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:04:17
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 6
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:04:17.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => всмывмавм
+)
+
+[2025-03-27 01:04:17] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743051857_2.docx
+[2025-03-27 01:04:17] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:04:17] [generate_operation_document] Document generation successful
+[2025-03-27 01:16:56] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:16:56] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:16:56] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:16:56] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:16:56] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:16:56] [generate_operation_document] Received inventory_id: 2, operation_id: 7
+[2025-03-27 01:16:56] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:16:56] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:16:56] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:16:56] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:16:56
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 7
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:16:56.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => пвапкумпва
+)
+
+[2025-03-27 01:16:56] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743052616_2.docx
+[2025-03-27 01:16:56] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:16:56] [generate_operation_document] Document generation successful
+[2025-03-27 01:17:47] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:17:47] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:17:47] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:17:47] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:17:47] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:17:47] [generate_operation_document] Received inventory_id: 2, operation_id: 8
+[2025-03-27 01:17:47] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:17:47] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:17:47] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:17:47] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:17:47
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 8
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:17:47.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => лориромипом
+)
+
+[2025-03-27 01:17:47] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743052667_2.docx
+[2025-03-27 01:17:47] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:17:47] [generate_operation_document] Document generation successful
+[2025-03-27 01:26:16] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:26:16] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:26:16] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:26:16] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:26:16] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:26:16] [generate_operation_document] Received inventory_id: 2, operation_id: 9
+[2025-03-27 01:26:16] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:26:16] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:26:16] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:26:16] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:26:16
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 9
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:26:16.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => яварв
+)
+
+[2025-03-27 01:26:16] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743053176_2.docx
+[2025-03-27 01:26:16] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:26:16] [generate_operation_document] Document generation successful
+[2025-03-27 01:37:09] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:37:09] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:37:09] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:37:09] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:37:09] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:37:09] [generate_operation_document] Received inventory_id: 2, operation_id: 10
+[2025-03-27 01:37:09] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:37:09] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:37:09] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:37:09] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:37:09
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 10
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:37:09.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => ваово
+)
+
+[2025-03-27 01:37:09] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743053829_2.docx
+[2025-03-27 01:37:09] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:37:09] [generate_operation_document] Document generation successful
+[2025-03-27 01:42:06] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:42:06] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:42:06] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:42:06] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:42:06] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:42:06] [generate_operation_document] Received inventory_id: 2, operation_id: 11
+[2025-03-27 01:42:06] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:42:06] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:42:06] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:42:06] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:42:06
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 11
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:42:06.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => 4алтмиоват
+)
+
+[2025-03-27 01:42:06] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743054126_2.docx
+[2025-03-27 01:42:06] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:42:06] [generate_operation_document] Document generation successful
+[2025-03-27 01:45:48] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:45:48] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:45:48] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:45:48] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:45:48] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:45:48] [generate_operation_document] Received inventory_id: 2, operation_id: 12
+[2025-03-27 01:45:48] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:45:48] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:45:48] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:45:48] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:45:48
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 12
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:45:48.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => ваиракптратапвытрп
+)
+
+[2025-03-27 01:45:48] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743054348_2.docx
+[2025-03-27 01:45:48] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:45:48] [generate_operation_document] Document generation successful
+[2025-03-27 01:46:45] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:46:45] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:46:45] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:46:45] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:46:45] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:46:45] [generate_operation_document] Received inventory_id: 2, operation_id: 13
+[2025-03-27 01:46:45] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:46:45] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:46:45] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:46:45] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:46:45
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 13
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:46:45.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => ываакак
+)
+
+[2025-03-27 01:46:45] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743054405_2.docx
+[2025-03-27 01:46:45] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:46:45] [generate_operation_document] Document generation successful
+[2025-03-27 01:49:31] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 01:49:31] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 01:49:31] [generate_operation_document] Including prolog_before.php
+[2025-03-27 01:49:31] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 01:49:31] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:49:31] [generate_operation_document] Received inventory_id: 2, operation_id: 14
+[2025-03-27 01:49:31] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:49:31] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 01:49:31] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 01:49:31] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 01:49:31
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 14
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 01:49:31.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => апваиапиап
+)
+
+[2025-03-27 01:49:31] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743054571_2.docx
+[2025-03-27 01:49:31] [generate_operation_document] Reading and encoding document
+[2025-03-27 01:49:31] [generate_operation_document] Document generation successful
+[2025-03-27 02:22:14] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 02:22:14] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 02:22:14] [generate_operation_document] Including prolog_before.php
+[2025-03-27 02:22:14] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 02:22:14] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:22:14] [generate_operation_document] Received inventory_id: 2, operation_id: 15
+[2025-03-27 02:22:14] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:22:14] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 02:22:14] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:22:14] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 02:22:14
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-26 05:45:51.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 15
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 02:22:14.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => иапиапри
+)
+
+[2025-03-27 02:22:14] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743056534_2.docx
+[2025-03-27 02:22:14] [generate_operation_document] Reading and encoding document
+[2025-03-27 02:22:14] [generate_operation_document] Document generation successful
+[2025-03-27 02:26:30] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 02:26:30] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 02:26:30] [generate_operation_document] Including prolog_before.php
+[2025-03-27 02:26:30] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 02:26:30] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:26:30] [generate_operation_document] Received inventory_id: 1, operation_id: 16
+[2025-03-27 02:26:30] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:26:30] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 02:26:30] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:26:30] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 02:26:30
+    [inventory_id] => 1
+    [inventory_model] => Berlingo
+    [inventory_serial_code] => 561651
+    [inventory_code] => 10000158987
+    [inventory_pc_name] => NAMEOFPC
+    [inventory_ip] => 192.168.1.39
+    [inventory_comment] => COMMENT
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 00:59:02.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 16
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 02:26:30.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => 5855252ыпрыракр
+)
+
+[2025-03-27 02:26:30] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743056790_1.docx
+[2025-03-27 02:26:30] [generate_operation_document] Reading and encoding document
+[2025-03-27 02:26:30] [generate_operation_document] Document generation successful
+[2025-03-27 02:36:10] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 02:36:10] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 02:36:10] [generate_operation_document] Including prolog_before.php
+[2025-03-27 02:36:10] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 02:36:10] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:36:10] [generate_operation_document] Received inventory_id: 2, operation_id: 0
+[2025-03-27 02:36:10] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:36:10] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 02:36:10] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:36:10] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 02:36:10
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => НА СКЛАДЕ
+    [inventory_status_id] => 4
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 02:26:12.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 0
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 02:36:10
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => ыпкувпквепек
+)
+
+[2025-03-27 02:36:10] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743057370_2.docx
+[2025-03-27 02:36:10] [generate_operation_document] Reading and encoding document
+[2025-03-27 02:36:10] [generate_operation_document] Document generation successful
+[2025-03-27 02:43:12] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 02:43:12] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 02:43:12] [generate_operation_document] Including prolog_before.php
+[2025-03-27 02:43:12] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 02:43:12] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:43:12] [generate_operation_document] Received inventory_id: 2, operation_id: 17
+[2025-03-27 02:43:12] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:43:12] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 02:43:12] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:43:12] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 02:43:12
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => НА СКЛАДЕ
+    [inventory_status_id] => 4
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 02:26:12.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 17
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 02:43:12
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => sgvdfgbdrfgbtfdbgавпав
+)
+
+[2025-03-27 02:43:12] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743057792_2.docx
+[2025-03-27 02:43:12] [generate_operation_document] Reading and encoding document
+[2025-03-27 02:43:12] [generate_operation_document] Document generation successful
+[2025-03-27 02:48:46] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 02:48:46] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 02:48:46] [generate_operation_document] Including prolog_before.php
+[2025-03-27 02:48:46] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 02:48:46] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:48:46] [generate_operation_document] Received inventory_id: 2, operation_id: 0
+[2025-03-27 02:48:46] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:48:46] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 02:48:46] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:48:46] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 02:48:46
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 02:43:12.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 0
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 02:48:46
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => фваотполрит
+)
+
+[2025-03-27 02:48:46] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743058126_2.docx
+[2025-03-27 02:48:46] [generate_operation_document] Reading and encoding document
+[2025-03-27 02:48:46] [generate_operation_document] Document generation successful
+[2025-03-27 02:54:54] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 02:54:54] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 02:54:54] [generate_operation_document] Including prolog_before.php
+[2025-03-27 02:54:54] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 02:54:54] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:54:54] [generate_operation_document] Received inventory_id: 2, operation_id: 18
+[2025-03-27 02:54:54] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:54:54] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 02:54:54] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 02:54:54] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 02:54:54
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 02:43:12.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 18
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 02:54:54
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => dfbd2
+)
+
+[2025-03-27 02:54:54] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743058494_2.docx
+[2025-03-27 02:54:54] [generate_operation_document] Reading and encoding document
+[2025-03-27 02:54:54] [generate_operation_document] Document generation successful
+[2025-03-27 03:07:28] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 03:07:28] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 03:07:28] [generate_operation_document] Including prolog_before.php
+[2025-03-27 03:07:28] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 03:07:28] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:07:28] [generate_operation_document] Received inventory_id: 2, operation_id: 19
+[2025-03-27 03:07:28] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:07:28] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 03:07:28] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:07:28] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 03:07:28
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 02:54:54.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 19
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 03:07:28
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => авыимваи
+)
+
+[2025-03-27 03:07:28] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743059248_2.docx
+[2025-03-27 03:07:28] [generate_operation_document] Reading and encoding document
+[2025-03-27 03:07:28] [generate_operation_document] Document generation successful
+[2025-03-27 03:12:35] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 03:12:35] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 03:12:35] [generate_operation_document] Including prolog_before.php
+[2025-03-27 03:12:35] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 03:12:35] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:12:35] [generate_operation_document] Received inventory_id: 2, operation_id: 20
+[2025-03-27 03:12:35] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:12:35] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 03:12:35] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:12:35] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 03:12:35
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 03:07:28.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 20
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 03:12:35
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => апмави
+)
+
+[2025-03-27 03:12:35] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743059555_2.docx
+[2025-03-27 03:12:35] [generate_operation_document] Reading and encoding document
+[2025-03-27 03:12:35] [generate_operation_document] Document generation successful
+[2025-03-27 03:24:23] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 03:24:23] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 03:24:23] [generate_operation_document] Including prolog_before.php
+[2025-03-27 03:24:23] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 03:24:23] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:24:23] [generate_operation_document] Received inventory_id: 2, operation_id: 0
+[2025-03-27 03:24:23] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:24:23] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 03:24:23] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:24:23] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 03:24:23
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 03:12:35.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 0
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 03:24:23
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => яваива
+)
+
+[2025-03-27 03:24:23] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743060263_2.docx
+[2025-03-27 03:24:23] [generate_operation_document] Reading and encoding document
+[2025-03-27 03:24:23] [generate_operation_document] Document generation successful
+[2025-03-27 03:31:50] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 03:31:50] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 03:31:50] [generate_operation_document] Including prolog_before.php
+[2025-03-27 03:31:50] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 03:31:50] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:31:50] [generate_operation_document] Received inventory_id: 2, operation_id: 0
+[2025-03-27 03:31:50] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:31:50] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 03:31:50] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:31:50] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 03:31:50
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 03:12:35.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 0
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 03:31:50
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => еервкаервка
+)
+
+[2025-03-27 03:31:50] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743060710_2.docx
+[2025-03-27 03:31:50] [generate_operation_document] Reading and encoding document
+[2025-03-27 03:31:50] [generate_operation_document] Document generation successful
+[2025-03-27 03:37:42] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 03:37:42] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 03:37:42] [generate_operation_document] Including prolog_before.php
+[2025-03-27 03:37:42] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 03:37:42] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:37:42] [generate_operation_document] Received inventory_id: 2, operation_id: 0
+[2025-03-27 03:37:42] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:37:42] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 03:37:42] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:37:42] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 03:37:42
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 03:12:35.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 0
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 03:37:42
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => лриомрп
+)
+
+[2025-03-27 03:37:42] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743061062_2.docx
+[2025-03-27 03:37:42] [generate_operation_document] Reading and encoding document
+[2025-03-27 03:37:42] [generate_operation_document] Document generation successful
+[2025-03-27 03:53:06] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 03:53:06] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 03:53:06] [generate_operation_document] Including prolog_before.php
+[2025-03-27 03:53:06] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 03:53:06] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:53:06] [generate_operation_document] Received inventory_id: 2, operation_id: 0
+[2025-03-27 03:53:06] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:53:06] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 03:53:06] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:53:06] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 03:53:06
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 03:12:35.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 0
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 03:53:06
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => саиваивп
+)
+
+[2025-03-27 03:53:06] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743061986_2.docx
+[2025-03-27 03:53:06] [generate_operation_document] Reading and encoding document
+[2025-03-27 03:53:06] [generate_operation_document] Document generation successful
+[2025-03-27 03:54:11] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 03:54:11] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 03:54:11] [generate_operation_document] Including prolog_before.php
+[2025-03-27 03:54:11] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 03:54:11] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:54:11] [generate_operation_document] Received inventory_id: 1, operation_id: 0
+[2025-03-27 03:54:11] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:54:11] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 03:54:11] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 03:54:11] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 03:54:11
+    [inventory_id] => 1
+    [inventory_model] => Berlingo
+    [inventory_serial_code] => 561651
+    [inventory_code] => 10000158987
+    [inventory_pc_name] => NAMEOFPC
+    [inventory_ip] => 192.168.1.39
+    [inventory_comment] => COMMENT
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 00:59:02.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 0
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 03:54:11
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => см сми
+)
+
+[2025-03-27 03:54:11] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743062051_1.docx
+[2025-03-27 03:54:11] [generate_operation_document] Reading and encoding document
+[2025-03-27 03:54:11] [generate_operation_document] Document generation successful
+[2025-03-27 05:02:59] [generate_operation_document] Starting generate_operation_document.php
+[2025-03-27 05:02:59] [generate_operation_document] Defining NOT_CHECK_PERMISSIONS
+[2025-03-27 05:02:59] [generate_operation_document] Including prolog_before.php
+[2025-03-27 05:02:59] [generate_operation_document] Including vendor/autoload.php from: /home/bitrix/www/local-pril/vendor/autoload.php
+[2025-03-27 05:02:59] [generate_operation_document] Received template_path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 05:02:59] [generate_operation_document] Received inventory_id: 2, operation_id: 0
+[2025-03-27 05:02:59] [generate_operation_document] Template path: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 05:02:59] [generate_operation_document] Output directory: /home/bitrix/www/local-pril/generated_documents/
+[2025-03-27 05:02:59] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 05:02:59] [generate_operation_document] Template values to be set: Array
+(
+    [template_path] => /home/bitrix/www/local-pril/documents/template_1743051755.docx
+    [current_date] => 27.03.2025
+    [current_time] => 05:02:59
+    [inventory_id] => 2
+    [inventory_model] => Модель 123123
+    [inventory_serial_code] => s/n 98gdggeg35
+    [inventory_code] => 4351534634
+    [inventory_pc_name] => Имя ПК 34к
+    [inventory_ip] => 948646
+    [inventory_comment] => Комментарий
+1
+2
+3
+4
+5
+    [inventory_responsible_fullname] => Снигирёв Кирилл
+    [inventory_responsible_email] => 
+    [inventory_responsible_number] => 
+    [inventory_status_name] => ИСПОЛЬЗУЕТСЯ
+    [inventory_status_id] => 1
+    [inventory_status_date_of_creation] => Bitrix\Main\Type\DateTime Object
+        (
+            [value:protected] => DateTime Object
+                (
+                    [date] => 2025-03-27 03:12:35.000000
+                    [timezone_type] => 3
+                    [timezone] => America/New_York
+                )
+
+            [userTimeEnabled:protected] => 1
+        )
+
+    [inventory_status_date_of_completion] => 
+    [inventory_location_name] => ОФИС 413
+    [inventory_location_id] => 1
+    [operation_id] => 0
+    [operation_user_fullname] => Снигирёв Кирилл
+    [operation_user_id] => 3
+    [operation_direct_name] => Тест
+    [operation_reverse_name] => Тестовая операция2
+    [operation_operation_id] => 3
+    [operation_activity_start] => 2025-03-27 05:02:59
+    [operation_execution_status] => Completed
+    [operation_after_status_name] => ИСПОЛЬЗУЕТСЯ
+    [operation_after_status_id] => 1
+    [operation_support_activity_start] => 
+    [operation_support_activity_end] => 
+    [operation_comment] => sdvfыапм
+)
+
+[2025-03-27 05:02:59] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743066179_2.docx
+[2025-03-27 05:02:59] [generate_operation_document] Reading and encoding document
+[2025-03-27 05:02:59] [generate_operation_document] Document generation successful
+[2025-03-27 05:16:55] [generate_operation_document] Starting generateOperationDocument
+[2025-03-27 05:16:55] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 05:16:55] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743067015_2.docx
+[2025-03-27 05:16:55] [generate_operation_document] Document generation successful
+[2025-03-27 05:21:58] [generate_operation_document] Starting generateOperationDocument
+[2025-03-27 05:21:58] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 05:21:58] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743067318_2.docx
+[2025-03-27 05:21:58] [generate_operation_document] Document generation successful
+[2025-03-27 05:34:29] [generate_operation_document] Starting generateOperationDocument
+[2025-03-27 05:34:29] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 05:34:29] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743068069_2.docx
+[2025-03-27 05:34:29] [generate_operation_document] Document generation successful
+[2025-03-27 05:36:20] [generate_operation_document] Starting generateOperationDocument
+[2025-03-27 05:36:20] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 05:36:20] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743068180_2.docx
+[2025-03-27 05:36:20] [generate_operation_document] Document generation successful
+[2025-03-27 05:41:02] [generate_operation_document] Starting generateOperationDocument
+[2025-03-27 05:41:02] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 05:41:02] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743068462_2.docx
+[2025-03-27 05:41:02] [generate_operation_document] Document generation successful
+[2025-03-27 05:49:43] [generate_operation_document] Starting generateOperationDocument
+[2025-03-27 05:49:43] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1742966272.docx
+[2025-03-27 05:49:43] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743068983_3.docx
+[2025-03-27 05:49:43] [generate_operation_document] Document generation successful
+[2025-03-27 06:03:10] [generate_operation_document] Starting generateOperationDocument
+[2025-03-27 06:03:10] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 06:03:10] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743069790_3.docx
+[2025-03-27 06:03:10] [generate_operation_document] Document generation successful
+[2025-03-27 06:24:18] [generate_operation_document] Starting generateOperationDocument
+[2025-03-27 06:24:18] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/documents/template_1743051755.docx
+[2025-03-27 06:24:18] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743071058_1.docx
+[2025-03-27 06:24:18] [generate_operation_document] Document generation successful
+[2025-03-28 08:32:34] [generate_operation_document] Starting generateOperationDocument
+[2025-03-28 08:32:34] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1743165154.docx
+[2025-03-28 08:32:34] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743165154_6.docx
+[2025-03-28 08:32:34] [generate_operation_document] Document generation successful
+[2025-03-31 11:08:55] [generate_operation_document] Starting generateOperationDocument
+[2025-03-31 11:08:55] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1743401334.docx
+[2025-03-31 11:08:55] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743401335_6.docx
+[2025-03-31 11:08:55] [generate_operation_document] Document generation successful
+[2025-04-04 10:52:58] [generate_operation_document] Starting generateOperationDocument
+[2025-04-04 10:52:58] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_1_1743745978.docx
+[2025-04-04 10:52:58] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1743745978_1.docx
+[2025-04-04 10:52:58] [generate_operation_document] Document generation successful
+[2025-04-07 17:38:56] [generate_operation_document] Starting generateOperationDocument
+[2025-04-07 17:38:56] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_1_1744029536.docx
+[2025-04-07 17:38:56] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744029536_1.docx
+[2025-04-07 17:38:56] [generate_operation_document] Document generation successful
+[2025-04-08 14:11:35] [generate_operation_document] Starting generateOperationDocument
+[2025-04-08 14:11:35] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_2_1744103495.docx
+[2025-04-08 14:27:11] [generate_operation_document] Starting generateOperationDocument
+[2025-04-08 14:27:11] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1744104431.docx
+[2025-04-08 14:27:11] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744104431_7.docx
+[2025-04-08 14:27:11] [generate_operation_document] Document generation successful
+[2025-04-08 14:27:33] [generate_operation_document] Starting generateOperationDocument
+[2025-04-08 14:27:33] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1744104453.docx
+[2025-04-08 14:27:33] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744104453_7.docx
+[2025-04-08 14:27:33] [generate_operation_document] Document generation successful
+[2025-04-08 14:27:40] [generate_operation_document] Starting generateOperationDocument
+[2025-04-08 14:27:40] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_1_1744104460.docx
+[2025-04-08 14:27:40] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744104460_7.docx
+[2025-04-08 14:27:40] [generate_operation_document] Document generation successful
+[2025-04-09 09:59:51] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 09:59:51] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1744174791.docx
+[2025-04-09 09:59:51] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744174791_7.docx
+[2025-04-09 09:59:51] [generate_operation_document] Document generation successful
+[2025-04-09 10:00:56] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 10:00:56] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744174856.docx
+[2025-04-09 10:00:56] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744174856_7.docx
+[2025-04-09 10:00:56] [generate_operation_document] Document generation successful
+[2025-04-09 11:33:17] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 11:33:17] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1744180397.docx
+[2025-04-09 11:33:17] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744180397_7.docx
+[2025-04-09 11:33:17] [generate_operation_document] Document generation successful
+[2025-04-09 11:40:37] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 11:40:37] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1744180837.docx
+[2025-04-09 11:40:37] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744180837_6.docx
+[2025-04-09 11:40:37] [generate_operation_document] Document generation successful
+[2025-04-09 11:46:14] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 11:46:14] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1744181174.docx
+[2025-04-09 11:46:14] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744181174_7.docx
+[2025-04-09 11:46:14] [generate_operation_document] Document generation successful
+[2025-04-09 11:48:54] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 11:48:54] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1744181334.docx
+[2025-04-09 11:48:54] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744181334_7.docx
+[2025-04-09 11:48:54] [generate_operation_document] Document generation successful
+[2025-04-09 14:22:04] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 14:22:04] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744190524.docx
+[2025-04-09 14:22:04] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744190524_6.docx
+[2025-04-09 14:22:04] [generate_operation_document] Document generation successful
+[2025-04-09 14:23:08] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 14:23:08] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744190588.docx
+[2025-04-09 14:23:08] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744190588_6.docx
+[2025-04-09 14:23:08] [generate_operation_document] Document generation successful
+[2025-04-09 14:23:52] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 14:23:52] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744190632.docx
+[2025-04-09 14:23:52] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744190632_6.docx
+[2025-04-09 14:23:52] [generate_operation_document] Document generation successful
+[2025-04-09 14:39:22] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 14:39:22] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744191562.docx
+[2025-04-09 14:39:22] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744191562_6.docx
+[2025-04-09 14:39:22] [generate_operation_document] Document generation successful
+[2025-04-09 14:39:54] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 14:39:54] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744191594.docx
+[2025-04-09 14:39:54] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744191594_6.docx
+[2025-04-09 14:39:54] [generate_operation_document] Document generation successful
+[2025-04-09 14:48:21] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 14:48:21] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744192101.docx
+[2025-04-09 14:48:21] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744192101_6.docx
+[2025-04-09 14:48:21] [generate_operation_document] Document generation successful
+[2025-04-09 15:10:58] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 15:10:58] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744193458.docx
+[2025-04-09 15:10:58] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744193458_6.docx
+[2025-04-09 15:10:58] [generate_operation_document] Document generation successful
+[2025-04-09 15:11:58] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 15:11:58] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744193518.docx
+[2025-04-09 15:11:58] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744193518_6.docx
+[2025-04-09 15:11:58] [generate_operation_document] Document generation successful
+[2025-04-09 15:13:16] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 15:13:16] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744193596.docx
+[2025-04-09 15:13:16] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744193596_6.docx
+[2025-04-09 15:13:16] [generate_operation_document] Document generation successful
+[2025-04-09 15:47:30] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 15:47:30] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744195650.docx
+[2025-04-09 15:47:30] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744195650_6.docx
+[2025-04-09 15:47:30] [generate_operation_document] Document generation successful
+[2025-04-09 15:48:14] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 15:48:14] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744195694.docx
+[2025-04-09 15:48:14] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744195694_6.docx
+[2025-04-09 15:48:14] [generate_operation_document] Document generation successful
+[2025-04-09 15:48:54] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 15:48:54] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744195734.docx
+[2025-04-09 15:48:54] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744195734_6.docx
+[2025-04-09 15:48:54] [generate_operation_document] Document generation successful
+[2025-04-09 15:50:09] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 15:50:09] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744195809.docx
+[2025-04-09 15:50:09] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744195809_6.docx
+[2025-04-09 15:50:09] [generate_operation_document] Document generation successful
+[2025-04-09 16:55:27] [generate_operation_document] Starting generateOperationDocument
+[2025-04-09 16:55:27] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744199727.docx
+[2025-04-09 16:55:27] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744199727_6.docx
+[2025-04-09 16:55:27] [generate_operation_document] Document generation successful
+[2025-04-10 09:22:10] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 09:22:10] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744258930.docx
+[2025-04-10 09:22:10] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744258930_6.docx
+[2025-04-10 09:22:10] [generate_operation_document] Document generation successful
+[2025-04-10 09:54:38] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 09:54:38] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744260878.docx
+[2025-04-10 09:54:38] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744260878_6.docx
+[2025-04-10 09:54:38] [generate_operation_document] Document generation successful
+[2025-04-10 10:15:36] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 10:15:36] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744262136.docx
+[2025-04-10 10:15:36] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744262136_6.docx
+[2025-04-10 10:15:36] [generate_operation_document] Document generation successful
+[2025-04-10 10:16:33] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 10:16:33] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744262193.docx
+[2025-04-10 10:16:33] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744262193_7.docx
+[2025-04-10 10:16:33] [generate_operation_document] Document generation successful
+[2025-04-10 15:31:27] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 15:31:27] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744281087.docx
+[2025-04-10 15:31:27] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744281087_6.docx
+[2025-04-10 15:31:27] [generate_operation_document] Document generation successful
+[2025-04-10 15:42:24] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 15:42:24] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744281744.docx
+[2025-04-10 15:42:24] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744281744_6.docx
+[2025-04-10 15:42:24] [generate_operation_document] Document generation successful
+[2025-04-10 15:45:28] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 15:45:28] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744281928.docx
+[2025-04-10 15:45:28] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744281928_6.docx
+[2025-04-10 15:45:28] [generate_operation_document] Document generation successful
+[2025-04-10 15:47:29] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 15:47:29] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744282049.docx
+[2025-04-10 15:47:29] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744282049_7.docx
+[2025-04-10 15:47:29] [generate_operation_document] Document generation successful
+[2025-04-10 16:00:27] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 16:00:27] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744282827.docx
+[2025-04-10 16:00:27] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744282827_6.docx
+[2025-04-10 16:00:27] [generate_operation_document] Document generation successful
+[2025-04-10 17:02:21] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:02:21] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744286541.docx
+[2025-04-10 17:02:21] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744286541_6.docx
+[2025-04-10 17:02:21] [generate_operation_document] Document generation successful
+[2025-04-10 17:03:36] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:03:36] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744286616.docx
+[2025-04-10 17:03:36] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744286616_6.docx
+[2025-04-10 17:03:36] [generate_operation_document] Document generation successful
+[2025-04-10 17:13:46] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:13:46] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744287226.docx
+[2025-04-10 17:13:46] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744287226_6.docx
+[2025-04-10 17:13:46] [generate_operation_document] Document generation successful
+[2025-04-10 17:15:20] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:15:20] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_2_1744287320.docx
+[2025-04-10 17:31:52] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:31:52] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744288312.docx
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for current_time: 17:31:52
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_id: 7
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_model: sdf
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_serial_code: sdf
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_code: 123
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_pc_name: 123
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_ip: 123
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_comment: sdf
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_responsible_fullname: Снигирёв Кирилл
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_responsible_email: k.snigirev@re-id.ru
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:31:30
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:31:52
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_execution_status: Completed
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:31:52] [generate_operation_document] Setting value for operation_comment: миыва
+[2025-04-10 17:31:52] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744288312_7.docx
+[2025-04-10 17:31:52] [generate_operation_document] Document generation successful
+[2025-04-10 17:33:09] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:33:09] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744288389.docx
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for current_time: 17:33:09
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_id: 7
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_model: sdf
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_serial_code: sdf
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_code: 123
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_pc_name: 123
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_ip: 123
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_comment: sdf
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_responsible_fullname: вяв ва ава
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_responsible_email: sdasd@ert.er
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_responsible_number: 21312312323
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:32:38
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:33:09
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_execution_status: Completed
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:33:09] [generate_operation_document] Setting value for operation_comment: sv
+[2025-04-10 17:33:09] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744288389_7.docx
+[2025-04-10 17:33:09] [generate_operation_document] Document generation successful
+[2025-04-10 17:33:50] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:33:50] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744288430.docx
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for current_time: 17:33:50
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_responsible_fullname: Кадников Антон Николаевич
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_responsible_email: optim@re-id.ru
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:33:39
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:33:50
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:33:50] [generate_operation_document] Setting value for operation_comment: svdefv
+[2025-04-10 17:33:50] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744288430_6.docx
+[2025-04-10 17:33:50] [generate_operation_document] Document generation successful
+[2025-04-10 17:34:43] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:34:43] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744288483.docx
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for current_time: 17:34:43
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_responsible_fullname: Снигирёв Кирилл
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_responsible_email: k.snigirev@re-id.ru
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:34:20
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:34:43
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:34:43] [generate_operation_document] Setting value for operation_comment: sdvdfv
+[2025-04-10 17:34:43] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744288483_6.docx
+[2025-04-10 17:34:43] [generate_operation_document] Document generation successful
+[2025-04-10 17:35:16] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:35:16] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744288516.docx
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for current_time: 17:35:16
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_responsible_fullname: Снигирёв Кирилл
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_responsible_email: k.snigirev@re-id.ru
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:34:20
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:35:16
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:35:16] [generate_operation_document] Setting value for operation_comment: fdbvfdb
+[2025-04-10 17:35:16] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744288516_6.docx
+[2025-04-10 17:35:16] [generate_operation_document] Document generation successful
+[2025-04-10 17:42:35] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:42:35] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744288955.docx
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for current_time: 17:42:35
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_responsible_fullname: Снигирёв Кирилл
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_responsible_email: k.snigirev@re-id.ru
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:42:20
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:42:35
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:42:35] [generate_operation_document] Setting value for operation_comment: ва
+[2025-04-10 17:42:35] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744288955_6.docx
+[2025-04-10 17:42:35] [generate_operation_document] Document generation successful
+[2025-04-10 17:49:37] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:49:37] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744289377.docx
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for current_time: 17:49:37
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_responsible_fullname: Снигирёв Кирилл
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_responsible_email: k.snigirev@re-id.ru
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:42:20
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:49:37
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:49:37] [generate_operation_document] Setting value for operation_comment: dfvdf
+[2025-04-10 17:49:37] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744289377_6.docx
+[2025-04-10 17:49:37] [generate_operation_document] Document generation successful
+[2025-04-10 17:51:50] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:51:50] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744289510.docx
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for current_time: 17:51:50
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_responsible_fullname: Снигирёв Кирилл
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_responsible_email: k.snigirev@re-id.ru
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:42:20
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:51:50
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:51:50] [generate_operation_document] Setting value for operation_comment: fgdsvd
+[2025-04-10 17:51:50] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744289510_6.docx
+[2025-04-10 17:51:50] [generate_operation_document] Document generation successful
+[2025-04-10 17:52:25] [generate_operation_document] Starting generateOperationDocument
+[2025-04-10 17:52:25] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1744289545.docx
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for current_date: 10.04.2025
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for current_time: 17:52:25
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_responsible_fullname: Кадников Антон Николаевич
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_responsible_email: optim@re-id.ru
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:42:20
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_activity_start: 2025-04-10 17:52:25
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-10 17:52:25] [generate_operation_document] Setting value for operation_comment: h
+[2025-04-10 17:52:25] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744289545_6.docx
+[2025-04-10 17:52:25] [generate_operation_document] Document generation successful
+[2025-04-11 09:57:56] [generate_operation_document] Starting generateOperationDocument
+[2025-04-11 09:57:56] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_6_1744347476.docx
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for current_date: 11.04.2025
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for current_time: 09:57:56
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_responsible_fullname: Кадников Антон Николаевич
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_responsible_email: optim@re-id.ru
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_status_date_of_creation: 10.04.2025 17:42:20
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_id: 6
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_direct_name: Операция
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_reverse_name: Обратная
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_operation_id: 6
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_activity_start: 2025-04-11 09:57:56
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_execution_status: Completed
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-11 09:57:56] [generate_operation_document] Setting value for operation_comment: впи
+[2025-04-11 09:57:56] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744347476_6.docx
+[2025-04-11 09:57:56] [generate_operation_document] Document generation successful
+[2025-04-11 10:02:07] [generate_operation_document] Starting generateOperationDocument
+[2025-04-11 10:02:07] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1744347727.docx
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for current_date: 11.04.2025
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for current_time: 10:02:07
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_responsible_fullname: Снигирёв Кирилл
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_responsible_email: k.snigirev@re-id.ru
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_status_date_of_creation: 11.04.2025 09:59:26
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_id: 5
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_direct_name: ФФ
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_reverse_name: ФФФ
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_operation_id: 5
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_activity_start: 2025-04-11 10:02:07
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-11 10:02:07] [generate_operation_document] Setting value for operation_comment: авп
+[2025-04-11 10:02:07] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744347727_6.docx
+[2025-04-11 10:02:07] [generate_operation_document] Document generation successful
+[2025-04-11 11:15:17] [generate_operation_document] Starting generateOperationDocument
+[2025-04-11 11:15:17] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_6_1744352117.docx
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for current_date: 11.04.2025
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for current_time: 11:15:17
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_responsible_fullname: Кадников Антон Николаевич
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_responsible_email: optim@re-id.ru
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_status_date_of_creation: 11.04.2025 11:14:57
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_id: 6
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_direct_name: Операция
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_reverse_name: Обратная
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_operation_id: 6
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_activity_start: 2025-04-11 11:15:17
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_execution_status: ������� �������������
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-11 11:15:17] [generate_operation_document] Setting value for operation_comment: jofviuyb
+[2025-04-11 11:15:17] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744352117_6.docx
+[2025-04-11 11:15:17] [generate_operation_document] Document generation successful
+[2025-04-11 11:55:04] [generate_operation_document] Starting generateOperationDocument
+[2025-04-11 11:55:04] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_6_1744354504.docx
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for current_date: 11.04.2025
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for current_time: 11:55:04
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_responsible_fullname: Кадников Антон Николаевич
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_responsible_email: optim@re-id.ru
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_status_date_of_creation: 11.04.2025 11:54:37
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_id: 6
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_direct_name: Операция
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_reverse_name: Обратная
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_operation_id: 6
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_activity_start: 2025-04-11 11:55:04
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_execution_status: ������� �������������
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-11 11:55:04] [generate_operation_document] Setting value for operation_comment: варпк
+[2025-04-11 11:55:04] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1744354504_6.docx
+[2025-04-11 11:55:04] [generate_operation_document] Document generation successful
+[2025-04-11 17:02:14] [generate_operation_document] Starting generateOperationDocument
+[2025-04-11 17:02:14] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_2_1744372934.docx
+[2025-04-11 17:02:42] [generate_operation_document] Starting generateOperationDocument
+[2025-04-11 17:02:42] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_2_1744372962.docx
+[2025-04-11 17:08:55] [generate_operation_document] Starting generateOperationDocument
+[2025-04-11 17:08:55] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_2_1744373335.docx
+[2025-04-21 11:54:34] [generate_operation_document] Starting generateOperationDocument
+[2025-04-21 11:54:34] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1745218474.docx
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for current_date: 21.04.2025
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for current_time: 11:54:34
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_responsible_fullname: Соловьёв Андрей
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_responsible_email: kirill.snigiriov@yandex.ru
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_status_date_of_creation: 21.04.2025 11:54:06
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_id: 5
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_direct_name: ФФ
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_reverse_name: ФФФ
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_operation_id: 5
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_activity_start: 2025-04-21 11:54:34
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_execution_status: ������� �������������
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-21 11:54:34] [generate_operation_document] Setting value for operation_comment: sfghfdh45
+[2025-04-21 11:54:34] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1745218474_6.docx
+[2025-04-21 11:54:34] [generate_operation_document] Document generation successful
+[2025-04-21 14:18:01] [generate_operation_document] Starting generateOperationDocument
+[2025-04-21 14:18:01] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1745227081.docx
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for current_date: 21.04.2025
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for current_time: 14:18:01
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_responsible_fullname: Соловьёв Андрей
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_responsible_email: kirill.snigiriov@yandex.ru
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_status_date_of_creation: 21.04.2025 11:54:06
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_id: 5
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_direct_name: ФФ
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_reverse_name: ФФФ
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_operation_id: 5
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_activity_start: 2025-04-21 14:18:01
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_execution_status: � ������
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-21 14:18:01] [generate_operation_document] Setting value for operation_comment: SDv
+[2025-04-21 14:18:01] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1745227081_6.docx
+[2025-04-21 14:18:01] [generate_operation_document] Document generation successful
+[2025-04-21 14:27:02] [generate_operation_document] Starting generateOperationDocument
+[2025-04-21 14:27:02] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_5_1745227622.docx
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for current_date: 21.04.2025
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for current_time: 14:27:02
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_id: 6
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_model: 1
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_serial_code: 1
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_code: 1
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_pc_name: 1
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_ip: 1
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_comment: 1
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_responsible_fullname: Соловьёв Андрей
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_responsible_email: kirill.snigiriov@yandex.ru
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_status_date_of_creation: 21.04.2025 11:54:06
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_id: 5
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_direct_name: ФФ
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_reverse_name: ФФФ
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_operation_id: 5
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_activity_start: 2025-04-21 14:27:02
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-21 14:27:02] [generate_operation_document] Setting value for operation_comment: sdv
+[2025-04-21 14:27:02] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1745227622_6.docx
+[2025-04-21 14:27:02] [generate_operation_document] Document generation successful
+[2025-04-23 12:42:57] [generate_operation_document] Starting generateOperationDocument
+[2025-04-23 12:42:57] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_3_1745394177.docx
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for current_date: 23.04.2025
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for current_time: 12:42:57
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_id: 1
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_model: Berlingo
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_serial_code: 561651
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_code: 10000158987
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_pc_name: NAMEOFPC
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_ip: 192.168.1.39
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_comment: COMMENT
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_responsible_fullname: Кадников Антон Николаевич
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_responsible_email: optim@re-id.ru
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_status_date_of_creation: 23.04.2025 12:18:17
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_id: 3
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_direct_name: Тест
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_reverse_name: Тестовая операция2
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_operation_id: 3
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_activity_start: 2025-04-23 12:42:57
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-04-23 12:42:57] [generate_operation_document] Setting value for operation_comment: 5451
+[2025-04-23 12:42:57] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1745394177_1.docx
+[2025-04-23 12:42:57] [generate_operation_document] Document generation successful
+[2025-07-21 16:03:17] [generate_operation_document] Starting generateOperationDocument
+[2025-07-21 16:03:17] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_7_1753095797.docx
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for current_date: 21.07.2025
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for current_time: 16:03:17
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_id: 1
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_model: Berlingoвапорапорап
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_serial_code: 561651
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_code: 10000158987
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_pc_name: NAMEOFPC
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_ip: 192.168.1.39
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_comment: COMMENT
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_responsible_fullname: Кадников Антон Николаевич
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_responsible_email: optim@re-id.ru
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_status_name: УТИЛИЗАЦИЯ
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_status_id: 2
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_status_date_of_creation: 25.04.2025 13:21:05
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_id: 7
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_direct_name: Тест333
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_reverse_name: 3333
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_operation_id: 7
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_activity_start: 2025-07-21 16:03:17
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_execution_status: Completed
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_after_status_name: В РЕМОНТЕ
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_after_status_id: 3
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-07-21 16:03:17] [generate_operation_document] Setting value for operation_comment: xb
+[2025-07-21 16:03:17] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1753095797_1.docx
+[2025-07-21 16:03:17] [generate_operation_document] Document generation successful
+[2025-07-21 16:04:33] [generate_operation_document] Starting generateOperationDocument
+[2025-07-21 16:04:33] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_7_1753095873.docx
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for current_date: 21.07.2025
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for current_time: 16:04:33
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_id: 3
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_model: 23к2
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_serial_code: 32к
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_code: 23к
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_pc_name: 32к
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_ip: 23к
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_comment: 1
+2
+3
+4
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_responsible_fullname: Солонченко Владимир Владим
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_responsible_email: p.gushin@reforma-sk.ru
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_status_id: 1
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_status_date_of_creation: 27.03.2025 15:03:10
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_location_name: Екатеринбург, Мартовская
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for inventory_location_id: 3
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_id: 7
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_direct_name: Тест333
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_reverse_name: 3333
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_operation_id: 7
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_activity_start: 2025-07-21 16:04:33
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_execution_status: Completed
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_after_status_name: В РЕМОНТЕ
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_after_status_id: 3
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-07-21 16:04:33] [generate_operation_document] Setting value for operation_comment: cv
+[2025-07-21 16:04:33] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1753095873_3.docx
+[2025-07-21 16:04:33] [generate_operation_document] Document generation successful
+[2025-07-21 16:05:54] [generate_operation_document] Starting generateOperationDocument
+[2025-07-21 16:05:54] [generate_operation_document] Creating TemplateProcessor with template: /home/bitrix/www/local-pril/temp_templates/template_6_1753095954.docx
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for template_path: /home/bitrix/www/local-pril/temp_templates/templat
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for current_date: 21.07.2025
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for current_time: 16:05:54
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_id: 2
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_model: Модель 123123
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_serial_code: s/n 98gdggeg35
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_code: 4351534634
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_pc_name: Имя ПК 34к
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_ip: 948646
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_comment: Комментарий
+1
+2
+3
+4
+5
+6
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_responsible_fullname: Снигирёв Кирилл
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_responsible_email: k.snigirev@re-id.ru
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_responsible_number: 
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_status_id: 1
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_status_date_of_creation: 18.07.2025 15:56:05
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_status_date_of_completion: 
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_location_name: ОФИС 413
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for inventory_location_id: 1
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_id: 6
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_user_fullname: Снигирёв Кирилл
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_user_id: 3
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_direct_name: Операция
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_reverse_name: Обратная
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_operation_id: 6
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_activity_start: 2025-07-21 16:05:54
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_execution_status: At work
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_after_status_name: ИСПОЛЬЗУЕТСЯ
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_after_status_id: 1
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_support_activity_start: 
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_support_activity_end: 
+[2025-07-21 16:05:54] [generate_operation_document] Setting value for operation_comment: cv
+[2025-07-21 16:05:54] [generate_operation_document] Saving document to: /home/bitrix/www/local-pril/generated_documents/operation_1753095954_2.docx
+[2025-07-21 16:05:54] [generate_operation_document] Document generation successful

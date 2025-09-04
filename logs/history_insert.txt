@@ -1,0 +1,7 @@
+[2025-04-21 14:18:01] Inserted history record ID=90, executionStatus=В работе
+[2025-04-21 14:27:02] Inserted history record ID=91, executionStatus=At work
+[2025-04-21 14:44:00] Inserted history record ID=92, executionStatus=At work
+[2025-04-23 12:42:57] Inserted history record ID=93, executionStatus=At work
+[2025-07-21 16:03:17] Inserted history record ID=94, executionStatus=Completed
+[2025-07-21 16:04:33] Inserted history record ID=95, executionStatus=Completed
+[2025-07-21 16:05:54] Inserted history record ID=96, executionStatus=At work

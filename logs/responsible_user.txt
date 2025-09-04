@@ -1,0 +1,7 @@
+[2025-04-21 14:18:01] operationType=direct, responsibleUserId=7, newResponsibleUserId=7, responsibleExistsInBitrix=1, currentResponsibleId=3, currentResponsibleExistsInBitrix=1
+[2025-04-21 14:27:02] operationType=direct, responsibleUserId=7, newResponsibleUserId=7, responsibleExistsInBitrix=1, currentResponsibleId=3, currentResponsibleExistsInBitrix=1
+[2025-04-21 14:44:00] operationType=direct, responsibleUserId=3, newResponsibleUserId=3, responsibleExistsInBitrix=1, currentResponsibleId=1, currentResponsibleExistsInBitrix=1
+[2025-04-23 12:42:57] operationType=direct, responsibleUserId=1, newResponsibleUserId=1, responsibleExistsInBitrix=1, currentResponsibleId=3, currentResponsibleExistsInBitrix=1
+[2025-07-21 16:03:17] operationType=direct, responsibleUserId=1, newResponsibleUserId=1, responsibleExistsInBitrix=1, currentResponsibleId=3, currentResponsibleExistsInBitrix=1
+[2025-07-21 16:04:33] operationType=direct, responsibleUserId=9, newResponsibleUserId=9, responsibleExistsInBitrix=1, currentResponsibleId=1, currentResponsibleExistsInBitrix=1
+[2025-07-21 16:05:54] operationType=reverse, responsibleUserId=0, newResponsibleUserId=3, responsibleExistsInBitrix=1, currentResponsibleId=3, currentResponsibleExistsInBitrix=1

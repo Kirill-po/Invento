@@ -1,0 +1,14 @@
+<?
+$PERM["sql_tables.php"]["2"]="X";
+$PERM["sql_tables.php"]["3"]="X";
+$PERM["sql_tables.php"]["12"]="X";
+$PERM["sql_tables.php"]["4"]="X";
+$PERM["sql_tables.php"]["9"]="X";
+$PERM["sql_tables.php"]["10"]="X";
+$PERM["sql_tables.php"]["13"]="X";
+$PERM["sql_tables.php"]["6"]="X";
+$PERM["sql_tables.php"]["8"]="X";
+$PERM["sql_tables.php"]["11"]="X";
+$PERM["sql_tables.php"]["7"]="X";
+$PERM["sql_tables.php"]["5"]="X";
+?>

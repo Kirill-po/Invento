@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('Gilroy-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy-Light', sans-serif !important;
+    color: rgb(29, 25, 84) !important;
+    background-color: #f8f8f8 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Фиксируем кнопку "Назад" */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: rgb(220, 0, 67);
+    text-decoration: none;
+    font-size: clamp(16px, 2vw, 20px);
+    border: 2px solid rgb(220, 0, 67);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background-color: rgb(220, 0, 67);
+    color: #fff;
+}
+
+/* Фиксируем контейнер */
+.container {
+    width: 100% !important;
+    max-width: auto !important;
+    text-align: center;
+    padding: 0 1px; /* Минимальные отступы */
+}
+
+/* Фиксируем кнопки */
+.button {
+    display: flex;
+    flex-direction: column; /* Текст всегда центрирован */
+    justify-content: center;
+    align-items: center;
+    background-color: white !important;
+    border: 2px solid #e50045 !important;
+    border-radius: 25px !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    color: rgb(29, 25, 84) !important;
+    aspect-ratio: 1 / 1 !important; /* Гарантированная квадратная форма */
+    width: 100% !important;
+    font-size: clamp(14px, 2vw, 18px) !important;
+    word-wrap: break-word !important;
+    padding: 15px !important; /* Увеличили внутренние отступы */
+    line-height: 1.2 !important; /* Улучшает читаемость */
+}
+
+
+.button:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2) !important;
+}

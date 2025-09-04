@@ -1,0 +1,40 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генерация документа</title>
+</head>
+<body>
+    <h2>Создать документ</h2>
+    <form id="docForm">
+        <label for="documentTitle">Название документа:</label>
+        <input type="text" id="documentTitle" name="DocumentTitle" required>
+        <br>
+        <label for="userName">Имя пользователя:</label>
+        <input type="text" id="userName" name="MyField" required>
+        <br>
+        <button type="submit">Создать</button>
+    </form>
+
+    <script>
+        document.getElementById('docForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let documentTitle = document.getElementById('documentTitle').value;
+            let userName = document.getElementById('userName').value;
+
+            fetch('/local-pril/ajax_generate.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ template_id: 97, fields: { DocumentTitle: documentTitle, MyField: userName } })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    window.location.href = data.file;
+                } else {
+                    alert("Ошибка: " + data.message);
+                }
+            })
+            .catch(error => console.error('Ошибка запроса:', error));
+        });
+    </script>
+</body>

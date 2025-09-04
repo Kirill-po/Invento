@@ -1,0 +1,19 @@
+[0;1;31m×[0m mysqld.service - MySQL Server
+     Loaded: loaded (]8;;file://B24TServer/usr/lib/systemd/system/mysqld.service/usr/lib/systemd/system/mysqld.service]8;;; [0;1;32menabled[0m; preset: [0;1;38;5;185mdisabled[0m)
+    Drop-In: /etc/systemd/system/mysqld.service.d
+             └─]8;;file://B24TServer/etc/systemd/system/mysqld.service.d/limit.conflimit.conf]8;;
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Thu 2025-03-06 04:51:57 EST; 4min 16s ago
+   Duration: 1d 22h 14min 20.997s
+       Docs: ]8;;man:mysqld(8)man:mysqld(8)]8;;
+             ]8;;http://dev.mysql.com/doc/refman/en/using-systemd.htmlhttp://dev.mysql.com/doc/refman/en/using-systemd.html]8;;
+    Process: 2429305 ExecStartPre=/usr/bin/mysqld_pre_systemd (code=exited, status=0/SUCCESS)
+    Process: 2429373 ExecStart=/usr/sbin/mysqld $MYSQLD_OPTS [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 2429373 (code=exited, status=1/FAILURE)
+     Status: "Server shutdown complete"
+        CPU: 31.704s
+
+Mar 06 04:51:21 B24TServer systemd[1]: Starting MySQL Server...
+Mar 06 04:51:57 B24TServer systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysqld.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 06 04:51:57 B24TServer systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmysqld.service: Failed with result 'exit-code'.[0m
+Mar 06 04:51:57 B24TServer systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Server.[0m
+Mar 06 04:51:57 B24TServer systemd[1]: mysqld.service: Consumed 31.704s CPU time.

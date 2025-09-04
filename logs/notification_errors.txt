@@ -1,0 +1,8 @@
+[2025-04-11 11:15:22] Failed to create or find chat for operation #82
+[2025-04-11 11:55:04] Failed to create or find chat for operation #83, sent system notification instead
+[2025-04-11 17:14:58] Failed to create or find chat for operation #84, sent system notification instead
+[2025-04-15 11:42:53] Failed to create or find chat for operation #86, sent system notification instead
+[2025-04-21 11:46:21] Failed to create chat for operation #87 between users 3 and 1
+[2025-04-21 11:47:03] Failed to create chat for operation #88 between users 3 and 7
+[2025-04-21 11:54:34] Failed to create chat for operation #89 between users 3 and 7
+[2025-04-21 14:18:01] Failed to create chat for operation #90 between users 3 and 7

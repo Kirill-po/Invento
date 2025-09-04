@@ -1,0 +1,6 @@
+[2025-04-11 17:14:58] Failed to open template as ZIP archive: Error code 35 for file /home/bitrix/www/local-pril/temp_templates/template_2_1744373698.docx
+[2025-04-11 17:46:37] Failed to open template as ZIP archive: Error code 35 for file /home/bitrix/www/local-pril/temp_templates/template_2_1744375597.docx
+[2025-04-15 11:42:53] Failed to open template as ZIP archive: Error code 35 for file /home/bitrix/www/local-pril/temp_templates/template_2_1744699373.docx
+[2025-04-21 11:46:21] Failed to open template as ZIP archive: Error code 35 for file /home/bitrix/www/local-pril/temp_templates/template_2_1745217981.docx
+[2025-04-21 11:47:03] Failed to open template as ZIP archive: Error code 35 for file /home/bitrix/www/local-pril/temp_templates/template_2_1745218023.docx
+[2025-04-21 14:44:00] Failed to open template as ZIP archive: Error code 35 for file /home/bitrix/www/local-pril/temp_templates/template_2_1745228640.docx
